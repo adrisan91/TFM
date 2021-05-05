@@ -1062,19 +1062,19 @@ footer .wrapperFooter .copyrightBx > p{
 
     .parallax{
         /* First: Background Image */
-        background-image: url('imgs/banner-mb.jpg');
-    }
+      /* background-image: url('imgs/banner-mb.jpg');*/
+    } 
 
     /* --- BANNER --- */
 
     .banner{
-        /* background: url('https://images.unsplash.com/photo-1487700160041-babef9c3cb55?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1470&q=80'); */
+        /* background: url('https://images.unsplash.com/photo-1487700160041-babef9c3cb55?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1470&q=80'); 
         background: url('imgs/banner.jpg');
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        overflow: hidden;
+        overflow: hidden;*/
     }
 
     .banner{
