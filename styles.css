@@ -1248,7 +1248,7 @@ footer .wrapperFooter .copyrightBx > p{
         width: 70%;
         margin: 0 auto;
     }
-
+*/
     .scrollTop{
         bottom: 1rem;
         transition: 0.5s;
@@ -1278,7 +1278,7 @@ footer .wrapperFooter .copyrightBx > p{
     .copyrightBx p a{
         font-size: 16px;
     }
-*/
+
 }
 
 @media screen and (min-width: 1024px){
