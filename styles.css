@@ -1065,9 +1065,9 @@ footer .wrapperFooter .copyrightBx > p{
     }
 
     /* --- BANNER --- */
-
+/*
     .banner{
-        /* background: url('https://images.unsplash.com/photo-1487700160041-babef9c3cb55?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1470&q=80'); */
+         background: url('https://images.unsplash.com/photo-1487700160041-babef9c3cb55?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1470&q=80');
         background: url('imgs/banner.jpg');
         background-attachment: fixed;
         background-position: center;
@@ -1083,7 +1083,7 @@ footer .wrapperFooter .copyrightBx > p{
     .banner .content{
         top: 30vh;
     }
-
+ */
     /* --- ABOUT --- */
     .about .contentBx{
        width: 50%
