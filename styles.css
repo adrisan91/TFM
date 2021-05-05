@@ -3,7 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
 
-
 /*--- COLORS ---*/
 :root{
     --text-black: black; 
@@ -13,8 +12,8 @@
     --secondary-color: #A8DADC;
     --tertiary-color: #b1ee99c4;
     --nav-no-scrolled: transparent;
-    --logo-color: #1f71b8;
     --logo-color: #0098CD;
+    --logo-color3: #e4e0d9;
     --whatsapp-color: #1BD741;
     --nav-scrolled: white;
     --midnight: #b6b6b6;
@@ -713,11 +712,11 @@ text-transform: uppercase;
     flex-direction: column;
     background: var(--text-white);
     border-radius: 10px;
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1)
+    box-shadow: 2px 2px 20px 1px rgba(0, 0, 0, 0.3);
   }
   
   .testimonials .wrapper .person:hover{
-      box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3)
+      box-shadow: 2px 2px 20px 1px rgba(0, 0, 0, 0.7);
   }
   
   .testimonials .wrapper .person img{
@@ -1062,19 +1061,19 @@ footer .wrapperFooter .copyrightBx > p{
 
     .parallax{
         /* First: Background Image */
-      /* background-image: url('imgs/banner-mb.jpg');*/
-    } 
+        background-image: url('imgs/banner-mb.jpg');
+    }
 
     /* --- BANNER --- */
 
     .banner{
-        /* background: url('https://images.unsplash.com/photo-1487700160041-babef9c3cb55?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1470&q=80'); 
+        /* background: url('https://images.unsplash.com/photo-1487700160041-babef9c3cb55?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1470&q=80'); */
         background: url('imgs/banner.jpg');
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        overflow: hidden;*/
+        overflow: hidden;
     }
 
     .banner{
@@ -1208,9 +1207,9 @@ footer .wrapperFooter .copyrightBx > p{
     } */
 
     /* --- Testimonials ---*/
-   /* .testimonials .wrapper .person{
+    .testimonials .wrapper .person{
         width: 49%;
-    }*/
+    }
     /* --- Testimonials ---*/
 
     /* --- SERVICES --- */
@@ -1231,12 +1230,12 @@ footer .wrapperFooter .copyrightBx > p{
     /*--- CLIENTS --- */
 
     .testimonials .wrapper .contentBx .review .text{
-        font-size: 14px;
+        font-size: 16px;
     }
     
 
     /*--- CONTACT FORM ---  */
-
+/*
     .form{
         flex: 1;
         margin-block-start: 1.5em;
@@ -1279,7 +1278,7 @@ footer .wrapperFooter .copyrightBx > p{
     .copyrightBx p a{
         font-size: 16px;
     }
-
+*/
 }
 
 @media screen and (min-width: 1024px){
