@@ -50,4 +50,3 @@
       $scrollTop.toggleClass('bannerScrolled', $(this).scrollTop() > $banner.height());
     });
 
-    /*------X----- SCROLLED NAVBAR --------X--------*/
