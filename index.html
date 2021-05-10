@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Resultados del formulario sobre intereses estadísticos. ¿Te animas a descubrirlos?">
+    <meta property=“og:image” content=“http://example.com/picture.jpg” />
+    <meta property=”og:image:width” content=”180″ />
+    <meta property=”og:image:height” content=”110″ />
     <title>Estadística | ¿Cuan interesada esta la población?</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" href="imgs/unir-removebg-preview.png" type="image/x-icon">
@@ -23,21 +26,20 @@
             <div class="nav-items"><!-- FLEX 3 -->
                 <div class="nav-links"> <!-- FLEX 2 -->
                     <ul>
-                        
-                        <li class="nav-link" style="--i: .1s"><a class="closeMenu" href="#testimonials">Feedback</a></li>
-                        <li class="nav-link" style="--i: 0.3s"><a href="#about" class="closeMenu">Conóceme</a></li>
-                        <!-- <li class="nav-link" style="--i: .5s"><a class="closeMenu" href="#trabajos">Trabajos</a></li> 
-                        <li class="nav-link" style="--i: .5s"><a class="closeMenu" href="#contacto">Contacto</a></li>-->
+                        <li class="nav-link" style="--i: 0.1s"><a href="#about" class="closeMenu">Conóceme</a></li>
+                        <li class="nav-link" style="--i: .3s"><a class="closeMenu" href="#testimonials">Feedback</a></li>
+                        <!-- <li class="nav-link" style="--i: .5s"><a class="closeMenu" href="#trabajos">Trabajos</a></li> -->
                         <li class="nav-link" style="--i: .5s"><a class="closeMenu" href="form.html">Formulario</a></li>       
                         <li class="nav-link" style="--i: .6s"><a class="closeMenu" href="ambitos.html">Ámbitos</a></li>
+                        <li class="nav-link" style="--i: .5s"><a class="closeMenu" href="#contacto">Contacto</a></li>
                     </ul>
                 </div>
                 <!--<div class="nav-social" style="--i: 0.9s">          
                     <a href="https://www.instagram.com/goodpeoplesurfskate/"><i class="fab fa-instagram"></i></a>                
-                </div>
-                <div class="contactnum" style="--i: 0.8s">
-                    <a href="mailto:adrian.sanchez756@comunidadunir.net" class="text">adrian.sanchez756@comunidadunir.net</a>
                 </div>-->
+                <!-- <div class="contactnum" style="--i: 0.8s">
+                    <a href="mailto:adrian.sanchez756@comunidadunir.net" class="text">adrian.sanchez756@comunidadunir.net</a>
+                </div> -->
                 
             </div>
             <div class="nav-toggle-container"><!-- FLEX 1 DISPLAY NONE BIGGER SCREENS -->
@@ -58,7 +60,25 @@
             <p>¿Te ha gustado?, comparte 😄</p>
         </div>
     </section>
-    <!-- Testimonials -->
+
+    <section class="about" id="about">
+        <div class="wrapper">
+            <div class="contentBx">
+                <h2 class="logo">ADRIÁN <span>SÁNCHEZ</span></h2>
+                <h2 style="color: var(--text-gray);"> ¿Quién soy?</h2>
+                <p class="text">Estudiante de Master en <a href="https://www.unir.net/ingenieria/master-visual-analytics-big-data/" target="_blank"><strong class="logosm">Visual Analytics <span>& Big Data</span></strong></a> por <strong>UNIR</strong>
+                   
+                    <br>
+                    <!-- <p class="text">Sígueme en instagram:
+                        <a href="https://www.instagram.com/adrian_s.l_/">@adrian_s.l_</a><br>
+                    </p> -->
+                    <p><a href="#contacto">Ante cualquier duda o sugerencia no dudes en contactarme.</a></p>
+            </div>
+            <div class="imgBx">
+                <img id="imgBrand" class="imgBrand" src="imgs/penang.jpg" alt="Adrián sentado en un columpio interactuando con un mural del arte callejero en la ciudad de GeorgeTown, Malaysia">
+            </div>
+        </div>
+        <!-- Testimonials -->
    <section class="testimonials" id="testimonials">
     <div class="headingBx">
       <h2 class="heading">FEEDBACK</h2>
@@ -103,23 +123,6 @@
         </div>   
       </div>
   </section>
-  <section class="about" id="about">
-        <div class="wrapper">
-            <div class="contentBx">
-                <h2 class="logo">ADRIÁN <span>SÁNCHEZ</span></h2>
-                <h2 style="color: var(--text-gray);"> ¿Quién soy?</h2>
-                <p class="text"><strong class="logosm">Visual Analytics &<span>Big Data</span></strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid impedit asperiores ad perferendis quidem atque suscipit laudantium minima neque saepe dolores nostrum iure iusto vel, hic eveniet vitae accusamus debitis.
-                    <br>
-                    <p class="text">Sígueme en instagram:
-                        <a href="https://www.instagram.com/adrian_s.l_/" target="_blank">@adrian_s.l_</a><br>
-                    </p>
-                    <p><a href="#contacto">Ante cualquier duda o sugerencia no dudes en contactarme.</a></p>
-            </div>
-            <div class="imgBx">
-                <img id="imgBrand" class="imgBrand" src="imgs/penang.jpg" alt="Adrián sentado en un columpio interactuando con un mural del arte callejero en la ciudad de GeorgeTown, Malaysia">
-            </div>
-        </div>
-    </section>
     <section class="contact" id="contacto">
         <div class="wrapper">
             <div class="info">
@@ -133,24 +136,13 @@
             <div class="info2">
                 <a class="text" href="https://goo.gl/maps/TKmTsGbixcSZA5DY7" target="_blank"><i class="fas fa-map-marker-alt"></i>Logroño, La Rioja</a>
                 <a class="text" href="tel:+34672745797"><i class="fas fa-phone-alt"></i> +34 672 745 797</a>
-                <a class="text" href="whatsapp://send?phone=34652555412&text=¡Hola, GOOD PEOPLE! Me gustaría recibir más información sobre sus cursos" target="_blank"><i class="fab fa-whatsapp"></i>+34 652 555 412</a>
-                
+                <a class="text" href="whatsapp://send?phone=34672745797&text=¡Hola, Adrián!" target="_blank"><i class="fab fa-whatsapp"></i>+34 672745797</a>  
                 <a href="mailto:adrian.sanchez756@comunidadunir.net" class="text"><i class="fas fa-at"></i>adrian.sanchez756@comunidadunir.net</a>
             </div>
         </div>
     </section>
     <footer>
-        <!-- <div class="footerBx">
-        </div> -->
         <div class="wrapperFooter">
-            <!--<div class="contentBx">         
-                <div class="schedule">
-                   <p class="text">No dudes en contactarnos en cualquier momento. Estaremos encantados de ayudar.</p>
-                </div>
-                <div class="contact">
-                    <p class="text"></p>
-                </div>
-            </div>-->
             <div class="copyrightBx">
                 <p>Copyright @ 2021 Adrián Sánchez López</p>
                 <p>|</p>

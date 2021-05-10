@@ -526,45 +526,37 @@ text-transform: uppercase;
 }
 
 .about .imgBx .imgBrand{
-    border-radius: 3px;
     display: block;
     position: relative;
     max-width: 100%;
 }
   
 #imgBrand {
-    border-radius: 5px;
-    cursor: pointer;
+    border-radius: 100%;
     transition: 0.3s;
 }
 
 #imgBrand:hover {transform: scale(1.05);}
 
-.modal,
-.modal-content,
-#caption{
-    display: none;
-}
-
 /*--- PARALLAX --- */
 
-.parallax{
-    /* First: Background Image */
+/* .parallax{
+    First: Background Image
     background-image: url('imgs/IMG_20210323_171549-1280w.webp');
-    /* Second: Set a specific height */
+    Second: Set a specific height
     height: 500px;
-    /* Create the parallax scrolling effect */
+    Create the parallax scrolling effect
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .parallax2{
-      /* First: Background Image */
+      First: Background Image
       background-image: url('imgs/somos.webp');
-      /* Second: Set a specific height */
+      Second: Set a specific height
       height: 500px;
-      /* Create the parallax scrolling effect */
+      Create the parallax scrolling effect
       background-attachment: fixed;
       background-position: center;
       background-repeat: no-repeat;
@@ -578,11 +570,11 @@ text-transform: uppercase;
 
 .parallax2 .imgBx img{
     width: 100%;
-}
+} */
 
 /* --- SERVICES --- */
 
-.services{
+/* .services{
     border-bottom: 5px solid #f1f1f1;
 }
 
@@ -662,11 +654,11 @@ text-transform: uppercase;
 .card .container .text a{
     color: var(--logo-color);
     font-weight: 600;
-}
+} */
 
 /* --- CLIENTS --- */
 
-.clients .contentBx{
+/* .clients .contentBx{
     padding: var(--padding-mb);
     justify-content: center;
 }
@@ -679,11 +671,11 @@ text-transform: uppercase;
     display: flex;
     justify-content: center;
     width: 150px;
-}
+} 
 
 .clients .wrapper > a > i{
     font-size: 5rem;
-}
+}*/
 
 /*---------- TESTIMONIALS -------- */
  
@@ -1095,7 +1087,6 @@ footer .wrapperFooter .copyrightBx > p{
     }
     
     .about .imgBx{
-       margin-left: 3%;
        width: 47%
     }
 
