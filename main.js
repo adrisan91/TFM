@@ -14,10 +14,10 @@
     $content = $(".content");
 
     // A $( document ).ready() block.
-    $(document ).ready(function() {
+    $(document).ready(function() {
       $content.fadeIn(5000, function(){
         $content.css("display", "block");
-        $content.css("top", "30vh");
+        $content.css("top", "15vh");
         $content.css("transition" ,"1.5s ease-in")
     })
   });

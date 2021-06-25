@@ -11,7 +11,7 @@
     --primary-color:  #1D3557;
     --secondary-color: #A8DADC;
     --tertiary-color: #b1ee99c4;
-    --nav-no-scrolled: transparent;
+    --nav-no-scrolled: white;
     --logo-color: #0098CD;
     --logo-color3: #e4e0d9;
     --whatsapp-color: #1BD741;
@@ -395,6 +395,13 @@ nav .nav-brand .imgLogo{
     padding-top: 4.5rem;
 }
 
+.banner_2{
+    position: relative;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
 .banner .content{
     text-align: center;
     position: relative;
@@ -413,15 +420,15 @@ nav .nav-brand .imgLogo{
 .banner .content h1{
     font-size: 2rem;
     margin-bottom: 1px;
-    border-bottom: 1px solid #f1f1f1;
-    color: white;
+    border-bottom: 1px solid #0098CD;
+    color: #605E5C;
     text-transform: uppercase;
 }
 
 .banner .content h3{
 font-size: 0.8rem;
 margin-bottom: 25px;
-color: white;
+color: #605E5C;
 text-transform: uppercase;
 }  
 
@@ -438,8 +445,8 @@ text-transform: uppercase;
 }
   
 .btn-main:hover{
-    background: white;
-    color: var(--logo-color);
+    background: #66D6FF;
+    color: white;
 }
 
 .banner .contactBxMobile{
@@ -540,7 +547,7 @@ text-transform: uppercase;
 
 /*--- PARALLAX --- */
 
-/* .parallax{
+ /* .parallax{
     First: Background Image
     background-image: url('imgs/IMG_20210323_171549-1280w.webp');
     Second: Set a specific height
@@ -550,13 +557,13 @@ text-transform: uppercase;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 .parallax2{
-      First: Background Image
-      background-image: url('imgs/somos.webp');
-      Second: Set a specific height
+      /* First: Background Image */
+      background-image: url('imgs/penang.jpg');
+      /* Second: Set a specific height */
       height: 500px;
-      Create the parallax scrolling effect
+      /* Create the parallax scrolling effect */
       background-attachment: fixed;
       background-position: center;
       background-repeat: no-repeat;
@@ -570,7 +577,7 @@ text-transform: uppercase;
 
 .parallax2 .imgBx img{
     width: 100%;
-} */
+} 
 
 /* --- SERVICES --- */
 
@@ -1058,10 +1065,10 @@ footer .wrapperFooter .copyrightBx > p{
     }
 
     /* --- BANNER --- */
-/*
+
     .banner{
-         background: url('https://images.unsplash.com/photo-1487700160041-babef9c3cb55?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1470&q=80');
-        background: url('imgs/banner.jpg');
+        background: url('https://images.unsplash.com/photo-1485627941502-d2e6429a8af0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
+        /* background: url('imgs/penang.jpg'); */
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
@@ -1074,9 +1081,10 @@ footer .wrapperFooter .copyrightBx > p{
     }
 
     .banner .content{
-        top: 30vh;
+        top: -70%;
+        left: 25vh;
     }
- */
+ 
     /* --- ABOUT --- */
     .about .contentBx{
        width: 50%
