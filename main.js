@@ -17,7 +17,7 @@
     $(document).ready(function() {
       $content.fadeIn(5000, function(){
         $content.css("display", "block");
-        $content.css("top", "15vh");
+        $content.css("top", "25vh");
         $content.css("transition" ,"1.5s ease-in")
     })
   });
