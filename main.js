@@ -13,11 +13,11 @@
     $main = $(".main");
     $content = $(".content");
 
-    // A $( document ).ready() block.
     $(document).ready(function() {
       $content.fadeIn(5000, function(){
         $content.css("display", "block");
-        $content.css("top", "25vh");
+        $content.css("top", "-10vh");
+        $content.css("left", "0%");
         $content.css("transition" ,"1.5s ease-in")
     })
   });

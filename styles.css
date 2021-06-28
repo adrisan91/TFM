@@ -390,6 +390,7 @@ nav .nav-brand .imgLogo{
 .banner{
     position: relative;
     display: flex;
+    align-items: center;
     height: 100vh;
     width: 100%;
     padding-top: 4.5rem;
@@ -403,18 +404,12 @@ nav .nav-brand .imgLogo{
 }
 
 .banner .content{
+    margin: auto;
     text-align: center;
     position: relative;
-    left: 2vw;
     top: -100%;
-    /*transition: all 2s ease-in 0s;
-    /* width: 20rem; */
     height: 15rem;
     padding: 2rem;
-/*    background: var(--light-gray);*/
-    
-    /*margin-top: 25vh;*/
-    /* display: none; */
 }
   
 .banner .content h1{
@@ -1081,8 +1076,7 @@ footer .wrapperFooter .copyrightBx > p{
     }
 
     .banner .content{
-        top: -70%;
-        left: 15vw;
+        top: -100%;
     }
  
     /* --- ABOUT --- */
