@@ -403,7 +403,8 @@ nav .nav-brand .imgLogo{
     width: 100%;
 }
 
-.banner .content{
+.banner .content,
+.banner_2 .content{
     margin: auto;
     text-align: center;
     position: relative;
@@ -412,7 +413,8 @@ nav .nav-brand .imgLogo{
     padding: 2rem;
 }
   
-.banner .content h1{
+.banner .content h1,
+.banner_2 .content h1{
     font-size: 2rem;
     margin-bottom: 1px;
     border-bottom: 1px solid #0098CD;
@@ -420,7 +422,8 @@ nav .nav-brand .imgLogo{
     text-transform: uppercase;
 }
 
-.banner .content h3{
+.banner .content h3,
+.banner_2 .content h3{
 font-size: 0.8rem;
 margin-bottom: 25px;
 color: #605E5C;
